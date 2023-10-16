@@ -4,8 +4,8 @@ export default function PortfolioCard() {
   return (
     <>
     
-      <div className='w-1/3 h-[385px] flex justify-center'>
-        <div className='w-[395px] h-full bg-white rounded overflow-hidden Portfolio__Card'>
+      <div className='h-[385px] w-auto flex justify-center mt-10 '>
+        <div className='w-full md:w-[395px] max-w-[395px] h-full bg-white rounded overflow-hidden Portfolio__Card'>
           <div className='w-full h-[208px]'>
             <img src="/Images/Portfolio_One.png" className='w-auto h-full object-cover' alt="" />
           </div>
