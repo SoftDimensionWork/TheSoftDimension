@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         "blue": "#199AE2",
         "blue-01":"#2CC4F4"
+        
       }
     },
   },
