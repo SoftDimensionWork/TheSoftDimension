@@ -7,7 +7,7 @@ import Testimonial_card from './Testimonial_card'
 export default function HomeSection() {
   return (
     <>
-      {/* <div className='w-full h-full t-black'>
+      <div className='w-full h-full t-black'>
         <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center">
           <Image
             src={"/SVG/HomepageSVG/SoftDimensionLogo.svg"}
@@ -93,8 +93,7 @@ export default function HomeSection() {
         </Jumbotron>
 
         <Jumbotron innerClass="py-10" />
-      </div> */}
-      Home HEllo
+      </div>
     </>
   )
 }
