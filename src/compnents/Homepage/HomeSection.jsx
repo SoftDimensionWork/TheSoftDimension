@@ -4,7 +4,7 @@ import ButtonLight from '../Global/ButtonLight'
 import Service_card from './Service_card'
 import Testimonial_card from './Testimonial_card'
 
-export default function Homepage() {
+export default function HomeSection() {
   return (
     <>
       {/* <div className='w-full h-full t-black'>
