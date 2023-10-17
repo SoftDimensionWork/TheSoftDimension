@@ -19,12 +19,9 @@ export default function Service_card({
       <div className="w-full bg-blue-400 p-4 text-center">
         <h3 className="font-bold text-white text-2xl">{name}</h3>
         {children}
-        <ButtonLight
-          className="rounded-full my-4 px-5"
-          href={href}
-        >
-          Read More
-        </ButtonLight>
+        <button className='w-[74px] h-[28px] bg-white text-blue rounded-full mt-7'>
+          Details
+        </button>
       </div>
     </div>
 

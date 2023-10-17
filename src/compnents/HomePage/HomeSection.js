@@ -13,13 +13,13 @@ export default function HomeSection() {
         <Jumbotron innerClass="py-16 md:w-1/2 mx-auto text-center">
           <Image
             src={"/SVG/HomepageSVG/SoftDimensionLogo.svg"}
-            width={400}
-            height={400}
-            className="mb-10 mx-auto"
+            width={500}
+            height={500}
+            className="mb-10 mx-auto "
           />
-          <h1 className="text-5xl my-10 mt-16 uppercase text-white font-semibold">Soft Dimension</h1>
+          <h1 className="text-[80px] my-10 mt-16 uppercase text-white txt-shadow">Soft Dimension</h1>
           <div className='w-full flex justify-center mb-10'>
-            <p className="max-w-[500px] text-center text-white">Let’s join with us to develop or upgrade project. We can provide web or software reated any types of solutions.</p>
+            <p className="max-w-[700px] text-center text-white text-lg">Let’s join with us to develop or upgrade project. We can provide web or software reated any types of solutions.</p>
           </div>
           <ButtonLight
             className="rounded-full mb-4 px-10 py-2 shadow-md"
@@ -29,7 +29,7 @@ export default function HomeSection() {
         </Jumbotron>
 
         <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center">
-          <h2 className="font-bold text-3xl mb-4 text-white">
+          <h2 className="font-bold text-[40px] mb-4 text-white txt-shadow">
             The services which you can take from us
           </h2>
           {/* <p className="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit</p> */}
@@ -78,20 +78,23 @@ export default function HomeSection() {
         </Jumbotron>
 
         <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center mt-20">
-          <h2 className="font-bold text-3xl mb-4 text-white">
+          <h2 className="font-bold text-[40px] mb-4 text-white txt-shadow">
             Client Feedback
           </h2>
-          <p className="my-4 text-white">We already completed a huge number of clients works and all off them are satisfy by our work. Even some of the clients are continuously completing their works by us. </p>
+          <p className="my-7 text-white text-[19px] font-light">We already completed a huge number of clients works and all off them are satisfy by our work. Even some of the clients are continuously completing their works by us. </p>
+          <h2 className='text-[29px] text-white mt-10'>
+            Some of their comments:
+          </h2>
         </Jumbotron>
 
         <Jumbotron innerClass="mb-10 md:w-1/2 mx-auto">
 
-        <SwiperTestomonial />
+          <SwiperTestomonial />
 
         </Jumbotron>
 
         <Footer />
-        
+
       </div>
     </>
   )

@@ -15,7 +15,7 @@ body {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
     background-color: #199AE2;
-    color: rgba(0, 0, 0, 0.562);
+    /* color: rgba(0, 0, 0, 0.562); */
 }
 
 .Portfolio__Card {
@@ -37,7 +37,7 @@ body {
 }
 
 .t-black {
-    background-color: rgba(0, 0, 0, .2)
+    background-color: rgba(0, 0, 0, 0.05)
 }
 
 ::-webkit-scrollbar {
@@ -59,4 +59,8 @@ body {
   
   ::-webkit-scrollbar-thumb:hover {
     background: #186b85; 
+  }
+
+  .txt-shadow{
+    text-shadow: 1px 1px 5px #00000070;
   }

@@ -7,7 +7,7 @@ export default function Testimonial_card({
 
   return <>
 
-    <div className={`flex w-full rounded shadow ${className}`}>
+    <div className={`flex w-full h-full rounded shadow ${className}`}>
       <div className='bg-white p-4 text-center'>
         <Image
           src={image}

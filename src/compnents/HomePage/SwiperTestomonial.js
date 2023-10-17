@@ -22,9 +22,9 @@ function SwiperTestomonial() {
                 loop={true}
                 slidesPerView={1}
                 modules={[Navigation]}
-                className="mySwiper container mx-auto max-w-[900px]"
+                className="mySwiper container mx-auto max-w-[1015px] h-[457px]"
             >
-                <SwiperSlide className='bg-white'>
+                <SwiperSlide className='bg-white w-full h-[457px]'>
                     <Testimonial_card
                         image="/logo.png"
                         name="Jonathon"
