@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ButtonLight from "../ButtonLight"
+
 
 export default function Testimonial_card({
   image, name, comment, className, children

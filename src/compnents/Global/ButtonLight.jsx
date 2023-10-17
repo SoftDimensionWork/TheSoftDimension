@@ -11,7 +11,7 @@ export default function ButtonLight({
     >
       <button
         className={`
-          px-2 py-1
+          px-5 py-1
           font-medium
           text-gray-900
           border border-gray-300
