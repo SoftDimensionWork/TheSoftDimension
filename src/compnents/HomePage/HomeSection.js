@@ -3,12 +3,14 @@ import Jumbotron from '../Global/Jumbotron'
 import ButtonLight from '../Global/ButtonLight'
 import Service_card from './Service_card'
 import Testimonial_card from './Testimonial_card'
+import SwiperTestomonial from './SwiperTestomonial'
+import Footer from '../Global/Footer'
 
 export default function HomeSection() {
   return (
     <>
       <div className='w-full h-full t-black'>
-        <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center">
+        <Jumbotron innerClass="py-16 md:w-1/2 mx-auto text-center">
           <Image
             src={"/SVG/HomepageSVG/SoftDimensionLogo.svg"}
             width={400}
@@ -30,7 +32,7 @@ export default function HomeSection() {
           <h2 className="font-bold text-3xl mb-4 text-white">
             The services which you can take from us
           </h2>
-          <p className="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit</p>
+          {/* <p className="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit</p> */}
         </Jumbotron>
 
         <Jumbotron innerClass="
@@ -84,15 +86,12 @@ export default function HomeSection() {
 
         <Jumbotron innerClass="mb-10 md:w-1/2 mx-auto">
 
-          <Testimonial_card
-            image="/logo.png"
-            name="Jonathon Git"
-            comment="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit"
-          />
+        <SwiperTestomonial />
 
         </Jumbotron>
 
-        <Jumbotron innerClass="py-10" />
+        <Footer />
+        
       </div>
     </>
   )

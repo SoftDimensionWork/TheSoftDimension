@@ -35,9 +35,9 @@ export default function Navbar() {
     ">
 
       <div className="w-2/12 ">
-        <a href="#" className="font-bold text-4xl text-white">
-          <PiDropboxLogoBold />
-        </a>
+        <Navlink href="/" className="font-bold text-4xl text-white">
+          <img src="/SVG/HomepageSVG/SoftDimensionLogo.svg" alt="Logo" className="h-10"/>
+        </Navlink>
       </div>
 
       <ButtonLight 
