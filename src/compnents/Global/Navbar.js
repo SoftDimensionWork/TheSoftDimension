@@ -57,7 +57,7 @@ export default function Navbar() {
           <Navlink href="/services" className={router.pathname === "/service" ? "font-bold" :null}>Services</Navlink>
           <Navlink href="/portfolio" className={router.pathname === "/portfolio" ? "font-bold" :null}>Portfolio</Navlink>
           <Navlink href="/aboutus" className={router.pathname === "/aboutus" ? "font-bold" :null}>About</Navlink>
-          <Navlink href="/">Contact</Navlink>
+          <Navlink href="/contact" className={router.pathname === "/contact" ? "font-bold" :null}>Contact</Navlink>
         </ul>
       </div>
 

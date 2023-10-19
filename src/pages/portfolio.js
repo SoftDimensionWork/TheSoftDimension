@@ -2,11 +2,16 @@ import BackgroundSVG from '@/compnents/Global/BackgroundSVG'
 import Footer from '@/compnents/Global/Footer'
 import Navbar from '@/compnents/Global/Navbar'
 import PortfolioSection from '@/compnents/Portfolio/PortfolioSection'
+import Head from 'next/head'
 import React from 'react'
 
 export default function portfolio() {
     return (
         <>
+            <Head>
+                <link rel="shortcut icon" href="/favicon/favicon.png" />
+                <title>Soft Dimension || Portfolio</title>
+            </Head>
             <BackgroundSVG />
             <Navbar />
             <div className='Portfolio__Section w-full min-h-screen z-50 t-black pt-20'>
