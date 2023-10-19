@@ -32,7 +32,7 @@ export default function AboutUsSection() {
                                     <OurTeamCard
                                         key={index}
                                         name={data.name}
-                                        position={data.designation}
+                                        position={data.position}
                                         image={data.image}
                                     />
                                     )
