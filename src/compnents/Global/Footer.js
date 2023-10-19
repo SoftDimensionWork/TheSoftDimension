@@ -77,7 +77,7 @@ export default function Footer() {
           <p className='mb-5 text-lg font-medium'>
             All Rights Reserve @ Soft Dimension
           </p>
-          <p className='max-w-[450px] mb-5 text-lg'>
+          <p className='max-w-[450px] mb-5 text-lg text-center md:text-start'>
             We are here to provide you the best of the best service to you.
             To make full satisfaction our client is the main target of us and we
             always focus on it.</p>

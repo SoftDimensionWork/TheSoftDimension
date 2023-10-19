@@ -17,15 +17,15 @@ export default function HomeSection() {
             height={500}
             className="mb-10 mx-auto "
           />
-          <h1 className="text-[80px] my-10 mt-16 uppercase text-white txt-shadow">Soft Dimension</h1>
+          <h1 className="md:text-[80px] text-3xl md:font-normal font-bold my-10 mt-16 uppercase text-white txt-shadow">Soft Dimension</h1>
           <div className='w-full flex justify-center mb-10'>
             <p className="max-w-[700px] text-center text-white text-lg">Let’s join with us to develop or upgrade project. We can provide web or software reated any types of solutions.</p>
           </div>
-          <ButtonLight
-            className="rounded-full mb-4 px-10 py-2 shadow-md"
+          <button
+            className="rounded-full mb-4 px-14 text-blue py-2 shadow-md bg-white font-semibold"
           >
             Our Services
-          </ButtonLight>
+          </button>
         </Jumbotron>
 
         <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center">
