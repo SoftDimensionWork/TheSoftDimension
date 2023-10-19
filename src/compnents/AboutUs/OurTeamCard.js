@@ -9,10 +9,10 @@ export default function OurTeamCard({name , position ,image, facebook, instagram
             </div>
             <div className='h-[182px] bg-white text-blue flex flex-col justify-center items-center'>
                 <div className='text-[30px]'>
-                    Mithun Sarkar
+                    {name}
                 </div>
                 <div className='text-[20px] my-5 mt-3'>
-                    Developer
+                    {position}
                 </div>
                 <div className='flex items-center'>
                     <div className='text-[25px]'>
