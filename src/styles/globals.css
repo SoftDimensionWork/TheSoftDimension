@@ -40,6 +40,10 @@ body {
     background-color: rgba(0, 0, 0, 0.05)
 }
 
+.SideNavbar{
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }
