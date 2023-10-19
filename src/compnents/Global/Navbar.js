@@ -54,9 +54,9 @@ export default function Navbar() {
           md:pt-0"
         >
           <Navlink href="/" className={router.pathname === "/" ? "font-bold" :null}>Home</Navlink>
-          <Navlink href="/" className={router.pathname === "/service" ? "font-bold" :null}>Services</Navlink>
+          <Navlink href="/services" className={router.pathname === "/service" ? "font-bold" :null}>Services</Navlink>
           <Navlink href="/portfolio" className={router.pathname === "/portfolio" ? "font-bold" :null}>Portfolio</Navlink>
-          <Navlink href="/">About</Navlink>
+          <Navlink href="/aboutus" className={router.pathname === "/aboutus" ? "font-bold" :null}>About</Navlink>
           <Navlink href="/">Contact</Navlink>
         </ul>
       </div>

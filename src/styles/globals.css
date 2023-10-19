@@ -64,3 +64,11 @@ body {
   .txt-shadow{
     text-shadow: 1px 1px 5px #00000070;
   }
+
+  .gridmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .item-1{
+    grid-area: 1/3;
+  }
