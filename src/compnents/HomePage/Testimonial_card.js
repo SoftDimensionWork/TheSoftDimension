@@ -16,7 +16,7 @@ export default function Testimonial_card({
         </div>
         
         <h3 className="text-2xl text-blue-500 text-blue font-semibold my-2">{name}</h3>
-        <p className="text-gray-500 md:px-10 px-2">
+        <p className="text-gray-500 md:px-10 px-5 py-5">
           <span className="text-2xl">"</span>
           {comment}"
         </p>

@@ -71,7 +71,7 @@ export default function Footer() {
     </footer> */}
 
     <div className='w-full h-auto bg-white'>
-      <div className="container w-full h-full mx-auto py-10 lg:flex items-center">
+      <div className="container w-full h-full mx-auto py-10 lg:flex items-center px-7 2xl:px-0">
         <div className='lg:w-1/2 flex flex-col items-center lg:items-start'>
           <h1 className='text-3xl text-blue mb-5 font-semibold'>Soft Dimension</h1>
           <p className='mb-5 text-lg font-medium'>

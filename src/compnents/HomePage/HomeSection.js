@@ -17,7 +17,7 @@ export default function HomeSection() {
             height={500}
             className="mb-10 mx-auto "
           />
-          <h1 className="md:text-[80px] text-3xl md:font-normal font-bold my-10 mt-16 uppercase text-white txt-shadow">Soft Dimension</h1>
+          <h1 className="2xl:text-[80px] md:text-6xl text-3xl md:font-normal font-bold my-10 mt-16 uppercase text-white txt-shadow">Soft Dimension</h1>
           <div className='w-full flex justify-center mb-10'>
             <p className="max-w-[700px] text-center text-white text-lg">Let’s join with us to develop or upgrade project. We can provide web or software reated any types of solutions.</p>
           </div>
@@ -29,7 +29,7 @@ export default function HomeSection() {
         </Jumbotron>
 
         <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center">
-          <h2 className="font-bold text-[40px] mb-4 text-white txt-shadow">
+          <h2 className="font-bold 2xl:text-[40px] text-2xl mb-4 text-white txt-shadow">
             The services which you can take from us
           </h2>
           {/* <p className="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit</p> */}
@@ -87,7 +87,7 @@ export default function HomeSection() {
           </h2>
         </Jumbotron>
 
-        <Jumbotron innerClass="mb-10 md:w-1/2 mx-auto">
+        <Jumbotron innerClass="mb-10 2xl:w-1/2 md:w-3/4 mx-auto">
 
           <SwiperTestomonial />
 
