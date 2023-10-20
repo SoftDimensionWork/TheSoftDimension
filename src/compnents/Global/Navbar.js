@@ -59,7 +59,7 @@ export default function Navbar() {
           md:pt-0"
           >
             <Navlink href="/" className={router.pathname === "/" ? "font-bold" : null}>Home</Navlink>
-            <Navlink href="/services" className={router.pathname === "/service" ? "font-bold" : null}>Services</Navlink>
+            <Navlink href="/services" className={router.pathname === "/service" ? "font-bold" : null}>Quote</Navlink>
             <Navlink href="/portfolio" className={router.pathname === "/portfolio" ? "font-bold" : null}>Portfolio</Navlink>
             <Navlink href="/aboutus" className={router.pathname === "/aboutus" ? "font-bold" : null}>About</Navlink>
             <Navlink href="/contact" className={router.pathname === "/contact" ? "font-bold" : null}>Contact</Navlink>
@@ -69,7 +69,7 @@ export default function Navbar() {
         <div className={`w-full h-screen SideNavbar fixed top-0 md:hidden duration-500 z-50 ${SideNavbar === true ? "left-0" : "left-[-900px]"}`} onClick={() => { setSideNavbar(false) }}>
           <div className="h-full w-[90%] SideNavbar flex flex-col justify-center items-center">
             <div><Navlink href="/" className={`mb-10 ${router.pathname === "/" ? "font-bold" : null}`}>Home</Navlink></div>
-            <div><Navlink href="/services" className={`mb-10 ${router.pathname === "/service" ? "font-bold" : null}`}>Services</Navlink></div>
+            <div><Navlink href="/services" className={`mb-10 ${router.pathname === "/service" ? "font-bold" : null}`}>Quote</Navlink></div>
             <div><Navlink href="/portfolio" className={`mb-10 ${router.pathname === "/portfolio" ? "font-bold" : null}`}>Portfolio</Navlink></div>
             <div><Navlink href="/aboutus" className={`mb-10 ${router.pathname === "/aboutus" ? "font-bold" : null}`}>About</Navlink></div>
             <div><Navlink href="/contact" className={`mb-10 ${router.pathname === "/contact" ? "font-bold" : null}`}>Contact</Navlink></div>

@@ -24,13 +24,13 @@ export default function HomeSection() {
           <button
             className="rounded-full mb-4 px-14 text-blue py-2 shadow-md bg-white font-semibold"
           >
-            Our Services
+            Quote Now
           </button>
         </Jumbotron>
 
         <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center">
-          <h2 className="font-bold 2xl:text-[40px] text-2xl mb-4 text-white txt-shadow capitalize">
-            The Services which you can take from us
+          <h2 className="font-bold md:text-[40px] mb-4 text-white  txt-shadow capitalize">
+            Our Services
           </h2>
           {/* <p className="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit</p> */}
         </Jumbotron>
@@ -40,20 +40,20 @@ export default function HomeSection() {
       mb-10 md:w-2/3 mx-auto
     ">
           <Service_card
-            image={"/SVG/HomepageSVG/UIUX.svg"}
+            image={"/SVG/HomepageSVG/RealtimeSolution.svg"}
             name="UI/UX"
             className="col-span-1"
             href="/"
           />
           <Service_card
-            image={"/SVG/HomepageSVG/E-com.svg"}
-            name="Ecommerce Solution"
+            image={"/SVG/HomepageSVG/UIUX.svg"}
+            name="App Development"
             className="col-span-1"
             href="/"
           />
           <Service_card
-            image={"/SVG/HomepageSVG/Personal_Web.svg"}
-            name="Personal Web"
+            image={"/SVG/HomepageSVG/E-com.svg"}
+            name="E-Commerce"
             className="col-span-1"
             href="/"
           />
@@ -70,15 +70,15 @@ export default function HomeSection() {
             href="/"
           />
           <Service_card
-            image={"/SVG/HomepageSVG/RealtimeSolution.svg"}
-            name="Realtime Solution"
+            image={"/SVG/HomepageSVG/Personal_Web.svg"}
+            name="Personal Web"
             className="col-span-1"
             href="/"
           />
         </Jumbotron>
 
         <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center mt-20">
-          <h2 className="font-bold text-[40px] mb-4 text-white txt-shadow">
+          <h2 className="font-bold md:text-[40px] mb-4 text-white txt-shadow">
             Client Feedback
           </h2>
           <p className="my-7 text-white text-[19px] font-light">We already completed a huge number of clients works and all off them are satisfy by our work. Even some of the clients are continuously completing their works by us. </p>
