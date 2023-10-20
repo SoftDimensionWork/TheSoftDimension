@@ -17,9 +17,9 @@ export default function Service_card({
         />
       </div>
       <div className="w-full bg-blue-400 text-center flex flex-col items-center py-4 justify-between h-[120px]">
-        <h3 className="font-bold text-white text-xl">{name}</h3>
+        <h3 className="text-white text-xl">{name}</h3>
         {children}
-        <button className='w-[74px] h-[28px] bg-white text-blue rounded-full mt-7'>
+        <button className='w-[74px] h-[28px] bg-white text-blue text-[14px] rounded-full mt-7'>
           Details
         </button>
       </div>
