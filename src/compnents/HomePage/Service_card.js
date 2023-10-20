@@ -8,7 +8,7 @@ export default function Service_card({
 
   return <>
 
-    <div className={`rounded overflow-hidden shadow ${className} bg-blue-01`}>
+    <div className={`rounded overflow-hidden shadow ${className} bg-blue-01 h`}>
       <div className="w-full h-56 bg-slate-50 p-4 flex items-center justify-center">
         <Image
           src={image}
@@ -16,8 +16,8 @@ export default function Service_card({
           height={200}
         />
       </div>
-      <div className="w-full bg-blue-400 p-4 text-center">
-        <h3 className="font-bold text-white text-2xl">{name}</h3>
+      <div className="w-full bg-blue-400 text-center flex flex-col items-center py-4 justify-between h-[120px]">
+        <h3 className="font-bold text-white text-xl">{name}</h3>
         {children}
         <button className='w-[74px] h-[28px] bg-white text-blue rounded-full mt-7'>
           Details

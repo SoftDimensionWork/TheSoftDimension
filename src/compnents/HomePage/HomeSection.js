@@ -29,7 +29,7 @@ export default function HomeSection() {
         </Jumbotron>
 
         <Jumbotron innerClass="py-10 md:w-1/2 mx-auto text-center">
-          <h2 className="font-bold 2xl:text-[40px] text-2xl mb-4 text-white txt-shadow">
+          <h2 className="font-bold 2xl:text-[40px] text-3xl mb-4 text-white txt-shadow">
             The services which you can take from us
           </h2>
           {/* <p className="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit</p> */}
