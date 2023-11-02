@@ -12,7 +12,7 @@ export default function contact() {
                 <link rel="shortcut icon" href="/favicon/favicon.png" />
                 <title>Soft Dimension || Contact</title>
             </Head>
-            <BackgroundSVG />
+            {/* <BackgroundSVG /> */}
             <Navbar />
             <ContactSection />
             <Footer />

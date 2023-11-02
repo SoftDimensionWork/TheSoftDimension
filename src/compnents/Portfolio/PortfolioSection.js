@@ -4,11 +4,11 @@ import PortfolioCard from './PortfolioCard'
 export default function PortfolioSection({inductryName}) {
     return (
         <>
-            <div className='w-full min-h-[400px] container mx-auto pb-20 px-5 md:px-0'>
+            <div className='w-full min-h-[400px] container mx-auto pb-20 px-5 2xl:px-0'>
                         <div className='text-3xl font-semibold text-white z-[100]'>
                             {inductryName}
                         </div>
-                        <div className='flex flex-wrap flex-col lg:flex-row w-full  justify-between items-center mx-auto'>
+                        <div className='flex flex-wrap flex-col lg:flex-row w-full justify-between items-center'>
                             {/* Card Components */}
                             <PortfolioCard />
                             <PortfolioCard />
