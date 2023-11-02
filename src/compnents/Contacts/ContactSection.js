@@ -46,7 +46,7 @@ export default function ContactSection() {
                                 </div>
                                 <textarea name="" id="" className='w-full h-[150px] border border-blue rounded-md outline-blue p-1'></textarea>
                                 <div className='w-full flex justify-center'>
-                                    <button className='md:w-[146px] w-full h-[42px] bg-white text-blue-01 rounded-fullmt-5'>
+                                    <button className='md:w-[146px] w-full h-[42px] bg-white text-blue-01 rounded-full mt-5'>
                                         Submit
                                     </button>
                                 </div>
